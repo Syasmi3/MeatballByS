@@ -1,0 +1,81 @@
+/* BODY & HEADER */
+body {
+    font-family: Arial, sans-serif;
+    background: #ffe6f0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    background: linear-gradient(135deg, #ff99cc, #ff66b3);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 5px solid #ff66b3;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 20px;
+    background: repeating-linear-gradient(45deg, #ffb3d9 0 10px, #ff66b3 10px 20px);
+    margin: 10px auto 0 auto;
+    border-radius: 5px;
+}
+
+/* TOP MENU */
+.top-menu {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TOMBOL */
+.back-btn, .add-btn, .edit, .delete {
+    padding: 8px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    text-align: center;
+}
+
+.back-btn { background: #ff99cc; }
+.add-btn, .edit, .delete { background: #ff66b3; }
+
+.back-btn:hover { background: #ff66b3; transform: scale(1.05); }
+.add-btn:hover, .edit:hover, .delete:hover { background: #ff3385; transform: scale(1.05); }
+
+/* TABLE */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #fff0f5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid #ff99cc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #ff99cc;
+    color: white;
+}
+
+/* FOTO MENU */
+img {
+    border-radius: 8px;
+    border: 2px solid #ffb3d9;
+}

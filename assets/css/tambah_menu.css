@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffe6f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container utama */
+.container {
+    width: 450px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 3px solid #ffb6d9;
+    box-shadow: 0px 4px 10px rgba(255, 128, 170, 0.35);
+}
+
+/* Judul */
+h2 {
+    text-align: center;
+    color: #ff1a8c;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: #ff3385;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff99cc;
+    background: #fff7fb;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #ff4da6;
+}
+
+/* Tombol Simpan */
+.btn {
+    background: #ff66b3;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #ff3385;
+}
+
+/* Tombol Kembali */
+.back {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #ff1a8c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
